@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // <-- replace this
+const apiKey = "3a7864eb4ac2470b41ca0c1f6c30d49c"; // <-- replace this
 
 const city = "Kota"; // you can change or make dynamic
 
