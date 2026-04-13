@@ -8,15 +8,20 @@
 
 <body>
 
-<!-- 🔝 CURRENT WEATHER INFO (ADDED) -->
-<div class="current-info">
-  <h2 id="city">Kota</h2>
-  <h1 id="temp">32°C</h1>
-  <p id="condition">Sunny</p>
-</div>
+<!-- 🔍 SEARCH -->
+<input id="searchBox" placeholder="Search city..." />
+<button id="locBtn">📍</button>
 
+<!-- ⏳ LOADING / ERROR -->
+<div id="loading">Loading...</div>
+<div id="error"></div>
 
-<!-- 🔥 YOUR ORIGINAL CODE (UNCHANGED) -->
+<!-- 🔝 CURRENT WEATHER -->
+<h1 id="city">Kota</h1>
+<p id="condition">Clear</p>
+<h1 id="temp">35°C</h1>
+
+<!-- 🔥 YOUR ORIGINAL DESIGN (UNCHANGED) -->
 
 <div class="hot">
   <span class="sun"></span>
@@ -55,16 +60,16 @@
   </ul>
 </div>
 
-<!-- 🔽 FORECAST SECTION (ADDED) -->
+<!-- 🔽 FORECAST -->
 <div class="forecast">
-  <div class="day">Tomorrow<br>30°C</div>
-  <div class="day">Day 2<br>29°C</div>
-  <div class="day">Day 3<br>31°C</div>
-  <div class="day">Day 4<br>28°C</div>
-  <div class="day">Day 5<br>27°C</div>
+  <div class="day"></div>
+  <div class="day"></div>
+  <div class="day"></div>
+  <div class="day"></div>
+  <div class="day"></div>
 </div>
 
-<!-- 🔻 FOOTER (ADDED) -->
+<!-- 🔻 FOOTER -->
 <div class="footer">
   <p>Weather UI Design</p>
   <div class="logos">
@@ -72,6 +77,7 @@
   </div>
 </div>
 
+<script src="script.js"></script>
+
 </body>
 </html>
-<script src="script.js"></script>
